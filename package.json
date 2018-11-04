@@ -1,0 +1,22 @@
+{
+    "name": "pure-eclipse",
+    "displayName": "PureEclipse",
+    "description": "A semi-faithful rendition of Eclipse's dark theme",
+    "version": "0.0.1",
+    "publisher": "Alec Minchington",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "PureEclipse",
+                "uiTheme": "vs-dark",
+                "path": "./themes/PureEclipse-color-theme.json"
+            }
+        ]
+    }
+}
