@@ -963,6 +963,8 @@
 				"foreground": "#b267e6"
 			}
 		},
+		// ========================================================
+		// ========================================================
 		{
 			"name": "Comment",
 			"scope": [
@@ -990,7 +992,9 @@
 				"storage.type.cpp",
 				"punctuation.definition.directive.c",
 				"storage.type.modifier",
-				"storage.modifier"
+				"storage.modifier",
+				//python
+				"storage.type.function"
 			],
 			"settings": {
 				"foreground": "#DD2867"
@@ -1000,7 +1004,7 @@
 			"name": "Operators",
 			"scope": [
 				"keyword.operator",
-				"keyword.operator.c"
+				"punctuation.separator.pointer-access"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -1009,12 +1013,12 @@
 		{
 			"name": "Strings",
 			"scope": [
-				"string.quoted.double.cpp",
-				"string.quoted.single.c",
-				"punctuation.definition.string.begin.c",
-				"punctuation.definition.string.end.c",
-				"punctuation.definition.string.begin.cpp",
-				"punctuation.definition.string.end.cpp"
+				"string.quoted.double",
+				"string.quoted.single",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
 			],
 			"settings": {
 				"foreground": "#17C6A3"
@@ -1023,19 +1027,25 @@
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation.section.block.begin.bracket.curly.c",
-				"punctuation.section.block.end.bracket.curly.c",
-				"punctuation.section.arguments.begin.bracket.round.c",
-				"punctuation.section.arguments.end.bracket.round.c",
-				"punctuation.section.parameters.begin.bracket.round.c",
-				"punctuation.section.parameters.end.bracket.round.c",
-				"punctuation.section.parens.begin.bracket.round.c",
-				"punctuation.section.parens.end.bracket.round.c",
-				"punctuation.terminator.statement.c",
-				"punctuation.definition.parameters.begin.c",
-				"punctuation.definition.parameters.end.c",
-				"punctuation.definition.begin.bracket.square.c",
-				"punctuation.definition.end.bracket.square.c"
+				"punctuation.section.block.begin.bracket.curly",
+				"punctuation.section.block.end.bracket.curly",
+				"punctuation.section.arguments.begin.bracket.round",
+				"punctuation.section.arguments.end.bracket.round",
+				"punctuation.section.parameters.begin.bracket.round",
+				"punctuation.section.parameters.end.bracket.round",
+				"punctuation.section.parens.begin.bracket.round",
+				"punctuation.section.parens.end.bracket.round",
+				"punctuation.terminator.statement",
+				"punctuation.definition.parameters.begin",
+				"punctuation.definition.parameters.end",
+				"punctuation.definition.begin.bracket.square",
+				"punctuation.definition.end.bracket.square",
+				//python
+				"punctuation.definition.parameters",
+				"punctuation.definition.arguments",
+				"punctuation.definition.list",
+				"punctuation.definition",
+				"punctuation.separator"
 			],
 			"settings": {
 				"foreground": "#E6E6FA"
@@ -1054,7 +1064,9 @@
 			"name": "Functions",
 			"scope": [
 				"entity.name.function",
-				"support.function.C99"
+				"support.function.C99",
+				"meta.function-call.generic",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#A7EC21"
@@ -1075,7 +1087,10 @@
 			"name": "Params",
 			"scope": [
 				"meta.function.c",
-				"meta.function.constructor.cpp"
+				"meta.function.constructor.cpp",
+				"meta.function-call.arguments",
+				//python
+				"variable.parameter.function"
 			],
 			"settings": {
 				"foreground": "#79ABFF"
@@ -1094,16 +1109,18 @@
 		{
 			"name": "Numbers",
 			"scope": [
-				"constant.numeric.c"
+				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#6897BB"
+				"foreground": "#F78C6C" // previous blue color: #6897BB
 			}
 		},
 		{
 			"name": "OtherVars",
 			"scope": [
-				"variable.other.c"
+				"variable.other.c",
+				"variable.parameter.function.language.special.self.python",
+				"variable.language.special.self.python"
 			],
 			"settings": {
 				"foreground": "#FFCB6B",
