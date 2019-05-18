@@ -2,8 +2,12 @@
     "name": "pure-eclipse",
     "displayName": "PureEclipse",
     "description": "A semi-faithful rendition of Eclipse's dark theme",
-    "version": "0.0.1",
-    "publisher": "Alec Minchington",
+    "version": "1.1.0",
+    "publisher": "minchingtonak",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/minchingtonak/vscode-theme-pure-eclipse.git"
+    },
     "engines": {
         "vscode": "^1.28.0"
     },
