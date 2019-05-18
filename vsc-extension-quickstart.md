@@ -20,6 +20,12 @@ and specifies the base theme of the theme.
 * The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
 To learn more about scopes and how they're used, check out the [theme](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers#_adding-a-new-color-theme) documentation.
 
-## Install your extension
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/docs about publishing an extension.
+## Installation
+1. Download this repo as a .zip
+2. Unzip and move the `vscode-theme-pure-eclipse` folder into the `<user home>/.vscode/extensions` folder and restart Code.
+3. Select the "PureEclipse" theme in VS Code (`File > Preferences > Color Theme`).
+
+## Publishing
+1. Login to your publisher account in vsce: `vsce login <publisher name>`
+2. Publish your extension: `vsce publish`
+3. See [here](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions) for more.
