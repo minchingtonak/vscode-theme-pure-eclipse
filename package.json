@@ -1,7 +1,7 @@
 {
     "name": "pure-eclipse",
     "displayName": "PureEclipse",
-    "description": "A semi-faithful rendition of Eclipse's dark theme",
+    "description": "A semi-faithful rendition of Eclipse's dark theme.",
     "version": "1.1.3",
     "publisher": "minchingtonak",
 	"icon": "eclipse.png",

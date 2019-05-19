@@ -12,7 +12,7 @@ Security: in case of vulnerabilities.
 ### Added
 - LC2K assembly language support
 ### Fixed
-- #include statement coloring in C/C++
+- include statement coloring in C/C++
 
 ## [1.1.2]
 ### Fixed
