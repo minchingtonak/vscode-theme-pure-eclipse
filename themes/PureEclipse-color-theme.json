@@ -503,8 +503,8 @@
 		{
 			"name": "IncludeDirs",
 			"scope": [
-				"string.quoted.other.lt-gt.include.c",
-				"string.quoted.double.include.c"
+				"string.quoted.other.lt-gt.include",
+				"string.quoted.double.include"
 			],
 			"settings": {
 				"foreground": "#17C6A3"
@@ -519,8 +519,11 @@
 				"punctuation.definition.directive.c",
 				"storage.type.modifier",
 				"storage.modifier",
+				"punctuation.definition.directive",
 				// Python
-				"storage.type.function"
+				"storage.type.function",
+				// LC2K
+				"variable.other.opcode.lc2k"
 			],
 			"settings": {
 				"foreground": "#DD2867"
@@ -639,7 +642,9 @@
 		{
 			"name": "Numbers",
 			"scope": [
-				"constant.numeric"
+				"constant.numeric",
+				// LC2K
+				"storage.type.lc2k"
 			],
 			"settings": {
 				"foreground": "#F78C6C" // previous blue color: #6897BB
