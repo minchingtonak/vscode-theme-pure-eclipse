@@ -547,7 +547,8 @@
 			"name": "Operators",
 			"scope": [
 				"keyword.operator",
-				"punctuation.separator.pointer-access"
+				"punctuation.separator.pointer-access",
+				"entity.name.operator.overloadee"
 			],
 			"settings": {
 				"foreground": "#C792EA"
