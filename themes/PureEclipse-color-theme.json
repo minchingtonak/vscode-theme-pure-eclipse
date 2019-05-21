@@ -526,11 +526,13 @@
 			"scope": [
 				// C/C++
 				"keyword.control",
+				"keyword.other",
 				"storage.type",
 				"punctuation.definition.directive.c",
+				"punctuation.definition.directive",
 				"storage.type.modifier",
 				"storage.modifier",
-				"punctuation.definition.directive",
+				"constant.language",
 				// Python
 				"storage.type.function",
 				// LC2K
