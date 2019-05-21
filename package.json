@@ -7,7 +7,7 @@
 	"icon": "eclipse.png",
     "repository": {
       "type": "git",
-      "url": "git://github.com/minchingtonak/vscode-theme-pure-eclipse.git"
+      "url": "https://github.com/minchingtonak/vscode-theme-pure-eclipse.git"
     },
     "engines": {
         "vscode": "^1.28.0"
