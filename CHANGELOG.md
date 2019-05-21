@@ -8,6 +8,24 @@ Fixed: for any bug fixes.
 Security: in case of vulnerabilities. 
 -->
 
+## [1.2.0]
+### Added
+- Javascript support
+- Support type highlighting
+### Changed
+- Keywords are now bold
+- Numeric constants are now dark blue
+- Scope resolution types are now bold blue
+- User-defined types are now brown
+### Fixed
+- Punctuation highlighting
+- Operator overload highlighting in C/C++
+
+## [1.1.4]
+### Fixed
+- Single line comment highlighting in C/C++
+- Changelog formatting
+
 ## [1.1.3]
 ### Added
 - LC2K assembly language support
