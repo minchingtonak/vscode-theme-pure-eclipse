@@ -539,7 +539,8 @@
 				"variable.other.opcode.lc2k"
 			],
 			"settings": {
-				"foreground": "#DD2867"
+				"foreground": "#DD2867",
+				"fontStyle": "bold"
 			}
 		},
 		{
