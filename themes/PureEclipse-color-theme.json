@@ -536,7 +536,9 @@
 				// Python
 				"storage.type.function",
 				// LC2K
-				"variable.other.opcode.lc2k"
+				"variable.other.opcode.lc2k",
+				// Javascript
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -590,7 +592,10 @@
 				"punctuation.definition.arguments",
 				"punctuation.definition.list",
 				"punctuation.definition",
-				"punctuation.separator"
+				"punctuation.separator",
+				// Javascript
+				"meta.brace",
+				"punctuation"
 			],
 			"settings": {
 				"foreground": "#E6E6FA"
@@ -647,7 +652,11 @@
 		{
 			"name": "Classes",
 			"scope": [
-				"entity.name.type.cpp"
+				"entity.name.type.class",
+				"entity.name.type.namespace.scope-resolution.cpp",
+				// Javascript
+				"support.constant.math",
+
 			],
 			"settings": {
 				"foreground": "#1290C3",
