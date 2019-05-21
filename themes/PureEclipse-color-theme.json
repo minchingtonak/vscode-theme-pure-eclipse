@@ -677,7 +677,10 @@
 		{
 			"name": "Other Variables",
 			"scope": [
+				// C/C++
 				"variable.other",
+				"storage.type.cpp",
+				// Python
 				"variable.parameter.function.language.special.self.python",
 				"variable.language.special.self.python"
 			],
@@ -686,11 +689,22 @@
 			}
 		},
 		{
+			"name": "User-defined",
+			"scope": [
+				"storage.type.user-defined.cpp"
+			],
+			"settings": {
+				"foreground": "#d78364",
+				"fontStyle": ""
+			}
+		},
+		{
 			"name": "All Other Text",
 			"scope": [
 				"source",
 				"meta.block.c",
 				"meta.class-struct-block",
+				"variable.other.readwrite",
 				"variable.other.object"
 			],
 			"settings": {
