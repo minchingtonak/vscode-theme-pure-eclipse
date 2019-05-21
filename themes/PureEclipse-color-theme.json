@@ -708,7 +708,7 @@
 				"variable.other.object"
 			],
 			"settings": {
-				"foreground": "#8DDAF8"
+				"foreground": "#7ad9ff" // 8ddaf8, 6da0ff
 			}
 		}
 	]
