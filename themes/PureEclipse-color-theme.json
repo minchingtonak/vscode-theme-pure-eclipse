@@ -662,7 +662,7 @@
 				"storage.type.lc2k"
 			],
 			"settings": {
-				"foreground": "#F78C6C" // previous blue color: #6897BB
+				"foreground": "#6897BB" // #F78C6C
 			}
 		},
 		{
