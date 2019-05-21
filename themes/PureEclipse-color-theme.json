@@ -494,7 +494,8 @@
 		{
 			"name": "Comment",
 			"scope": [
-				"comment"
+				"comment",
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"foreground": "#737373"
