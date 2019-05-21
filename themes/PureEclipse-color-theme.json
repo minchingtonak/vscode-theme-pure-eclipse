@@ -502,6 +502,16 @@
 			}
 		},
 		{
+			"name": "Support types",
+			"scope": [
+				"support.type",
+				"support.class.builtin"
+			],
+			"settings": {
+				"foreground": "#c0c0c0"
+			}
+		},
+		{
 			"name": "IncludeDirs",
 			"scope": [
 				"string.quoted.other.lt-gt.include",
