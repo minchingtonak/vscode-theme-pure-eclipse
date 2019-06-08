@@ -8,6 +8,13 @@ Fixed: for any bug fixes.
 Security: in case of vulnerabilities. 
 -->
 
+## [1.2.1]
+### Added
+- Makefile highlighting
+### Fixed
+- Incorrect delete keyword color in C++
+- Incorrect [] color in function parameters in C/C++
+
 ## [1.2.0]
 ### Added
 - Javascript support

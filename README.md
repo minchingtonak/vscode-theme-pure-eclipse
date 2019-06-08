@@ -5,5 +5,6 @@ Basically, I liked Eclipse's dark theme's syntax highlighting color scheme so mu
 ### Currently Supported Languages
 * C/C++
 * Python
+* Makefile
 * Javascript
 * LC2K assembly
