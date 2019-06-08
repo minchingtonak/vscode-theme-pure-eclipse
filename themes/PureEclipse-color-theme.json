@@ -532,7 +532,7 @@
 				"punctuation.definition.directive.c",
 				"punctuation.definition.directive",
 				"storage.type.modifier",
-				"storage.modifier",
+				"storage.modifier.specifier",
 				"constant.language",
 				// Python
 				"storage.type.function",
