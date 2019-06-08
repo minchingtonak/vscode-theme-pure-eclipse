@@ -527,6 +527,7 @@
 				// C/C++
 				"keyword.control",
 				"keyword.other",
+				"keyword.operator.delete",
 				"storage.type",
 				"punctuation.definition.directive.c",
 				"punctuation.definition.directive",
