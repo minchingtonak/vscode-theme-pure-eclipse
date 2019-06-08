@@ -8,9 +8,13 @@ Fixed: for any bug fixes.
 Security: in case of vulnerabilities. 
 -->
 
+## [1.2.2]
+### Fixed
+- "Makefile" to "Make" in readme & changelog
+
 ## [1.2.1]
 ### Added
-- Makefile highlighting
+- Make highlighting
 ### Fixed
 - Incorrect delete keyword color in C++
 - Incorrect [] color in function parameters in C/C++
