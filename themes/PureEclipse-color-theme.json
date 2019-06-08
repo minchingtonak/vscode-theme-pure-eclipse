@@ -539,7 +539,10 @@
 				// LC2K
 				"variable.other.opcode.lc2k",
 				// Javascript
-				"keyword.operator.new"
+				"keyword.operator.new",
+				// Makefile
+				"variable.language.makefile",
+				"punctuation.definition.variable.makefile"
 			],
 			"settings": {
 				"foreground": "#DD2867",
@@ -551,7 +554,9 @@
 			"scope": [
 				"keyword.operator",
 				"punctuation.separator.pointer-access",
-				"entity.name.operator.overloadee"
+				"entity.name.operator.overloadee",
+				// Makefile
+				"punctuation.separator.key-value.makefile"
 			],
 			"settings": {
 				"foreground": "#C792EA"
