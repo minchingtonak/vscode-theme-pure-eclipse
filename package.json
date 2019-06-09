@@ -2,7 +2,7 @@
     "name": "pure-eclipse",
     "displayName": "PureEclipse",
     "description": "A semi-faithful rendition of Eclipse's dark theme.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "publisher": "minchingtonak",
 	"icon": "eclipse.png",
     "repository": {

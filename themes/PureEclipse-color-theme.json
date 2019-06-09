@@ -553,6 +553,7 @@
 			"name": "Operators",
 			"scope": [
 				"keyword.operator",
+				"storage.modifier.pointer",
 				"punctuation.separator.pointer-access",
 				"entity.name.operator.overloadee",
 				// Makefile
@@ -571,6 +572,9 @@
 				"punctuation.definition.string.end",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end",
+				// Python
+				"string.quoted.multi",
+				"string.quoted.docstring"
 			],
 			"settings": {
 				"foreground": "#17C6A3"

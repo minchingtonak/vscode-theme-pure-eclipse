@@ -8,6 +8,10 @@ Fixed: for any bug fixes.
 Security: in case of vulnerabilities. 
 -->
 
+## [1.2.3]
+### Fixed
+- Python docstring & multiline string highlighting
+
 ## [1.2.2]
 ### Fixed
 - "Makefile" to "Make" in readme & changelog
